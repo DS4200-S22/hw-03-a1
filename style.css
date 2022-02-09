@@ -1,3 +1,7 @@
+html {
+  font-family: Arial;
+}
+
 body {
   background-color: peachpuff;
   margin: 0;
@@ -5,18 +9,54 @@ body {
 .wrapper h1{
   text-align: center;
   font-size: 30px;
-  font-family: Arial;
   padding: 32px;
 }
 
-.img-area{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.wrapper h2{
+  text-align: center;
+  font-size: 25px;
+  padding: 32px;
 }
 
-.single-img{
-  padding: 0 50px 50px;
+.flex1{
+  display: flex;
+	justify-content: space-evenly;
+	flex-flow:  row wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 5px;
+  width: 300;
+}
+
+.item{
+  width: 50%;
+	height: 50%;
+	margin: auto;
+	align-items: flex-start;
+	border: 5px solid black;
+	padding:  5px;
+}
+
+.flex-para{
+  width: 300;
+}
+
+.shapes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row wrap;
+  align-items: center;
+  position: relative; 
+}
+.my-shape {
+  fill: #f33;
+}
+
+.my-shape:hover {
+  fill: #000;
+}
+
+.bulletpoints{
+  display: inline-block; 
+	text-align: left; 
 }
