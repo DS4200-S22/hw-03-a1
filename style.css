@@ -1,5 +1,11 @@
-html {
+h1 {
   font-family: Arial;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 30px;
 }
 
 body {
@@ -50,9 +56,7 @@ body {
 
 .shapes {
   display: flex;
-  margin: 0 auto;
   justify-content: center;
-  flex-direction: row wrap;
 }
 .square{
   fill: lightblue;
@@ -69,10 +73,7 @@ body {
 .circle:hover {
   fill: green;
 }
-
-.bulletpoints{
-  display: inline-block; 
-	text-align: left;
-  justify-content: center; 
-  align-items: center;
+.container{
+  display: flex;
+  justify-content: center;
 }
